@@ -122,6 +122,36 @@
     "cta_subtitle": "Neem contact op om te bespreken hoe EVAplate uw operatie kan helpen.",
     "cta_button": "Neem Contact Op"
   },
+  "contact": {
+    "hero_title": "Neem Contact Op",
+    "hero_subtitle": "Klaar om uw afvalstroom te bespreken? We horen graag van u.",
+    "form": {
+      "name": "Volledige Naam",
+      "name_placeholder": "Uw naam",
+      "email": "E-mailadres",
+      "email_placeholder": "u{'@'}bedrijf.nl",
+      "phone": "Telefoonnummer",
+      "phone_placeholder": "+31 ...",
+      "company": "Bedrijf",
+      "company_placeholder": "Uw bedrijfsnaam",
+      "interest": "Product Interesse",
+      "interest_general": "Algemene Vraag",
+      "interest_100": "EVAplate 100",
+      "interest_1000": "EVAplate 1000",
+      "message": "Bericht",
+      "message_placeholder": "Vertel ons over uw afvalstroom of vereisten...",
+      "submit": "Verstuur Bericht",
+      "submitting": "Verzenden...",
+      "success": "Bedankt! Uw bericht is verzonden. We nemen spoedig contact met u op.",
+      "error": "Er ging iets mis. Probeer het opnieuw of mail ons direct.",
+      "required": "Dit veld is verplicht",
+      "invalid_email": "Voer een geldig e-mailadres in"
+    },
+    "info_title": "Contactgegevens",
+    "info_email": "info{'@'}evaplate.com",
+    "info_phone": "+31 (0) 00 000 0000",
+    "info_address": "Nederland"
+  },
   "technology": {
     "hero_title": "Onze Technologie",
     "hero_subtitle": "Vacuümverdamping opnieuw uitgevonden met technisch kunststof",

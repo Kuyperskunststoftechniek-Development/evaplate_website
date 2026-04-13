@@ -122,6 +122,36 @@
     "cta_subtitle": "Get in touch to discuss how EVAplate can help your operation.",
     "cta_button": "Contact Us"
   },
+  "contact": {
+    "hero_title": "Contact Us",
+    "hero_subtitle": "Ready to discuss your waste stream? We'd love to hear from you.",
+    "form": {
+      "name": "Full Name",
+      "name_placeholder": "Your name",
+      "email": "Email Address",
+      "email_placeholder": "you{'@'}company.com",
+      "phone": "Phone Number",
+      "phone_placeholder": "+31 ...",
+      "company": "Company",
+      "company_placeholder": "Your company name",
+      "interest": "Product Interest",
+      "interest_general": "General Inquiry",
+      "interest_100": "EVAplate 100",
+      "interest_1000": "EVAplate 1000",
+      "message": "Message",
+      "message_placeholder": "Tell us about your waste stream or requirements...",
+      "submit": "Send Message",
+      "submitting": "Sending...",
+      "success": "Thank you! Your message has been sent. We'll get back to you soon.",
+      "error": "Something went wrong. Please try again or email us directly.",
+      "required": "This field is required",
+      "invalid_email": "Please enter a valid email address"
+    },
+    "info_title": "Contact Information",
+    "info_email": "info{'@'}evaplate.com",
+    "info_phone": "+31 (0) 00 000 0000",
+    "info_address": "The Netherlands"
+  },
   "technology": {
     "hero_title": "Our Technology",
     "hero_subtitle": "Vacuum evaporation reimagined with engineering plastic",
