@@ -27,9 +27,6 @@ export default defineNuxtConfig({
       meta: [
         { name: 'description', content: 'EVAplate builds vacuum evaporators from engineering plastic. Corrosion-free processing for industrial waste streams.' },
       ],
-      htmlAttrs: {
-        lang: 'en',
-      },
     },
   },
 })
