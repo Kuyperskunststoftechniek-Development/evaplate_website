@@ -11,5 +11,14 @@
     "subtitle": "Plastic-built evaporators that handle what metal can't",
     "cta_primary": "Request a Quote",
     "cta_secondary": "Learn More"
+  },
+  "footer": {
+    "description": "Sustainable vacuum evaporation technology built from engineering plastic.",
+    "quick_links": "Quick Links",
+    "contact_info": "Contact Info",
+    "email": "info{'@'}evaplate.com",
+    "phone": "+31 (0) 00 000 0000",
+    "address": "The Netherlands",
+    "rights": "All rights reserved."
   }
 }
