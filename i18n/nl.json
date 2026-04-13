@@ -20,5 +20,46 @@
     "phone": "+31 (0) 00 000 0000",
     "address": "Nederland",
     "rights": "Alle rechten voorbehouden."
+  },
+  "home": {
+    "features": {
+      "corrosion_title": "Corrosiebestendig",
+      "corrosion_desc": "Constructie van technisch kunststof weerstaat agressieve chemicaliën die metalen verdampers aantasten.",
+      "scalable_title": "Schaalbare Capaciteit",
+      "scalable_desc": "Van 100 tot 1.000 liter per uur — kies de capaciteit die past bij uw proces.",
+      "versatile_title": "Multi-Industrie",
+      "versatile_desc": "Verwerk diverse afvalstromen in de chemische, voedingsmiddelen-, gemeentelijke en productiesector."
+    },
+    "products_section_title": "Onze Producten",
+    "products_section_subtitle": "Twee modellen ontworpen voor verschillende processchalen",
+    "sustainability_title": "Gebouwd voor een Duurzame Toekomst",
+    "sustainability_text": "Onze kunststof vacuümverdampers reduceren het afvalvolume met tot 95%, en winnen schoon water terug voor hergebruik. Lager energieverbruik, geen corrosie en langere levensduur betekenen minder afval en een lagere milieu-impact.",
+    "cta_title": "Klaar om te Beginnen?",
+    "cta_subtitle": "Neem contact op voor een offerte op maat voor uw afvalstroom.",
+    "cta_button": "Neem Contact Op"
+  },
+  "products": {
+    "evaplate100": {
+      "name": "EVAplate 100",
+      "capacity": "100 L/u capaciteit",
+      "features": [
+        "Compact ontwerp voor kleinere operaties",
+        "Volledig kunststof constructie",
+        "Laag energieverbruik",
+        "Minimaal onderhoud vereist"
+      ]
+    },
+    "evaplate1000": {
+      "name": "EVAplate 1000",
+      "capacity": "1.000 L/u capaciteit",
+      "features": [
+        "Industriële verwerking op grote schaal",
+        "Volledig kunststof constructie",
+        "Verwerkt agressieve afvalstromen",
+        "Continue bedrijfsvoering mogelijk"
+      ]
+    },
+    "request_quote": "Offerte Aanvragen",
+    "view_details": "Meer Details"
   }
 }

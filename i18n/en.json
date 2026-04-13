@@ -20,5 +20,46 @@
     "phone": "+31 (0) 00 000 0000",
     "address": "The Netherlands",
     "rights": "All rights reserved."
+  },
+  "home": {
+    "features": {
+      "corrosion_title": "Corrosion Resistant",
+      "corrosion_desc": "Engineering plastic construction withstands aggressive chemicals that destroy metal evaporators.",
+      "scalable_title": "Scalable Capacity",
+      "scalable_desc": "From 100 to 1,000 liters per hour — choose the capacity that fits your operation.",
+      "versatile_title": "Multi-Industry",
+      "versatile_desc": "Process diverse waste streams across chemical, food, municipal, and manufacturing sectors."
+    },
+    "products_section_title": "Our Products",
+    "products_section_subtitle": "Two models designed for different scales of operation",
+    "sustainability_title": "Built for a Sustainable Future",
+    "sustainability_text": "Our plastic-based vacuum evaporators reduce waste volume by up to 95%, recovering clean water for reuse. Lower energy consumption, zero corrosion, and longer equipment life mean less waste and lower environmental impact.",
+    "cta_title": "Ready to Get Started?",
+    "cta_subtitle": "Contact us for a custom quote tailored to your waste stream.",
+    "cta_button": "Contact Us"
+  },
+  "products": {
+    "evaplate100": {
+      "name": "EVAplate 100",
+      "capacity": "100 L/h capacity",
+      "features": [
+        "Compact design for smaller operations",
+        "Full plastic construction",
+        "Low energy consumption",
+        "Minimal maintenance required"
+      ]
+    },
+    "evaplate1000": {
+      "name": "EVAplate 1000",
+      "capacity": "1,000 L/h capacity",
+      "features": [
+        "High-volume industrial processing",
+        "Full plastic construction",
+        "Handles aggressive waste streams",
+        "Continuous operation capability"
+      ]
+    },
+    "request_quote": "Request Quote",
+    "view_details": "View Details"
   }
 }
