@@ -61,5 +61,54 @@
     },
     "request_quote": "Offerte Aanvragen",
     "view_details": "Meer Details"
+  },
+  "technology": {
+    "hero_title": "Onze Technologie",
+    "hero_subtitle": "Vacuümverdamping opnieuw uitgevonden met technisch kunststof",
+    "how_it_works_title": "Hoe Vacuümverdamping Werkt",
+    "how_it_works_text": "Vacuümverdamping verlaagt het kookpunt van vloeistoffen door de druk te verlagen. Hierdoor kan afvalwater bij lage temperaturen verdampt worden, waarbij verontreinigingen geconcentreerd worden en schoon destillaat teruggewonnen wordt. Het resultaat: tot 95% volumereductie van uw afvalstroom.",
+    "how_it_works_steps": {
+      "step1_title": "Invoer",
+      "step1_desc": "Afvalwater komt de verdamper binnen",
+      "step2_title": "Verdampen",
+      "step2_desc": "Onder vacuüm verdampt water bij lage temperatuur",
+      "step3_title": "Condenseren",
+      "step3_desc": "Schone waterdamp wordt gecondenseerd en opgevangen",
+      "step4_title": "Concentreren",
+      "step4_desc": "Geconcentreerd residu wordt afgevoerd"
+    },
+    "why_plastic_title": "Waarom Kunststof?",
+    "why_plastic_text": "Traditionele vacuümverdampers zijn gebouwd van roestvast staal of exotische legeringen. Hoewel deze werken voor milde afvalstromen, corroderen en falen ze bij het verwerken van agressieve chemicaliën. EVAplate lost dit op door de gehele verdamper te bouwen uit technisch kunststof.",
+    "comparison": {
+      "feature": "Eigenschap",
+      "metal": "Metalen Verdampers",
+      "evaplate": "EVAplate (Kunststof)",
+      "corrosion": "Corrosiebestendigheid",
+      "metal_corrosion": "Beperkt — corrodeert met zuren, logen",
+      "evaplate_corrosion": "Uitstekend — bestand tegen vrijwel alle chemicaliën",
+      "maintenance": "Onderhoud",
+      "metal_maintenance": "Frequente reparaties en onderdelenvervanging",
+      "evaplate_maintenance": "Minimaal — geen corrosie betekent minder slijtage",
+      "lifespan": "Levensduur",
+      "metal_lifespan": "5–10 jaar met agressieve stromen",
+      "evaplate_lifespan": "15+ jaar zelfs met agressieve stromen",
+      "cost": "Totale Kosten van Eigendom",
+      "metal_cost": "Hoog — aanschaf + doorlopende reparaties",
+      "evaplate_cost": "Lager — minder onderhoud, langere levensduur"
+    },
+    "benefits_title": "Belangrijkste Voordelen",
+    "benefits": {
+      "chemical_title": "Chemische Bestendigheid",
+      "chemical_desc": "Verwerkt zuren, logen, oplosmiddelen en gemengd afval dat metalen systemen zou vernietigen.",
+      "maintenance_title": "Lager Onderhoud",
+      "maintenance_desc": "Geen corrosie betekent minder storingen, minder stilstand en lagere operationele kosten.",
+      "lifespan_title": "Langere Levensduur",
+      "lifespan_desc": "Technisch kunststof behoudt zijn structurele integriteit veel langer dan metaal in zware omgevingen.",
+      "application_title": "Breder Toepassingsgebied",
+      "application_desc": "Verwerk afvalstromen die voorheen onmogelijk of oneconomisch waren."
+    },
+    "cta_title": "Bekijk Onze Producten",
+    "cta_subtitle": "Ontdek de EVAplate 100 en EVAplate 1000",
+    "cta_button": "Producten Bekijken"
   }
 }

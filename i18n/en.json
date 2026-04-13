@@ -61,5 +61,54 @@
     },
     "request_quote": "Request Quote",
     "view_details": "View Details"
+  },
+  "technology": {
+    "hero_title": "Our Technology",
+    "hero_subtitle": "Vacuum evaporation reimagined with engineering plastic",
+    "how_it_works_title": "How Vacuum Evaporation Works",
+    "how_it_works_text": "Vacuum evaporation reduces the boiling point of liquids by lowering the pressure. This allows waste water to be evaporated at low temperatures, concentrating pollutants while recovering clean distillate. The result: up to 95% volume reduction of your waste stream.",
+    "how_it_works_steps": {
+      "step1_title": "Feed",
+      "step1_desc": "Waste water enters the evaporator",
+      "step2_title": "Evaporate",
+      "step2_desc": "Under vacuum, water evaporates at low temperature",
+      "step3_title": "Condense",
+      "step3_desc": "Clean water vapor is condensed and collected",
+      "step4_title": "Concentrate",
+      "step4_desc": "Concentrated residue is removed for disposal"
+    },
+    "why_plastic_title": "Why Plastic?",
+    "why_plastic_text": "Traditional vacuum evaporators are built from stainless steel or exotic alloys. While these work for mild waste streams, they corrode and fail when processing aggressive chemicals. EVAplate solves this by building the entire evaporator from engineering plastic.",
+    "comparison": {
+      "feature": "Feature",
+      "metal": "Metal Evaporators",
+      "evaplate": "EVAplate (Plastic)",
+      "corrosion": "Corrosion Resistance",
+      "metal_corrosion": "Limited — corrodes with acids, alkalis",
+      "evaplate_corrosion": "Excellent — resists virtually all chemicals",
+      "maintenance": "Maintenance",
+      "metal_maintenance": "Frequent repairs and part replacement",
+      "evaplate_maintenance": "Minimal — no corrosion means less wear",
+      "lifespan": "Lifespan",
+      "metal_lifespan": "5–10 years with aggressive streams",
+      "evaplate_lifespan": "15+ years even with aggressive streams",
+      "cost": "Total Cost of Ownership",
+      "metal_cost": "High — purchase + ongoing repairs",
+      "evaplate_cost": "Lower — less maintenance, longer life"
+    },
+    "benefits_title": "Key Benefits",
+    "benefits": {
+      "chemical_title": "Chemical Resistance",
+      "chemical_desc": "Processes acids, alkalis, solvents, and mixed waste that would destroy metal systems.",
+      "maintenance_title": "Lower Maintenance",
+      "maintenance_desc": "No corrosion means fewer breakdowns, less downtime, and lower operational costs.",
+      "lifespan_title": "Longer Lifespan",
+      "lifespan_desc": "Engineering plastic maintains structural integrity far longer than metal in harsh environments.",
+      "application_title": "Wider Application Range",
+      "application_desc": "Handle waste streams that were previously impossible or uneconomical to process."
+    },
+    "cta_title": "See Our Products",
+    "cta_subtitle": "Explore the EVAplate 100 and EVAplate 1000",
+    "cta_button": "View Products"
   }
 }
