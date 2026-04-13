@@ -62,6 +62,46 @@
     "request_quote": "Offerte Aanvragen",
     "view_details": "Meer Details"
   },
+  "products_page": {
+    "hero_title": "Onze Producten",
+    "hero_subtitle": "Vacuümverdampers gebouwd voor prestatie en duurzaamheid",
+    "comparison_title": "Modellen Vergelijken",
+    "specs": {
+      "capacity": "Capaciteit",
+      "design": "Ontwerp",
+      "construction": "Constructie",
+      "applications": "Toepassingen",
+      "operation": "Bedrijfsvoering",
+      "evaplate100": {
+        "capacity": "100 L/u",
+        "design": "Compact",
+        "construction": "Volledig technisch kunststof",
+        "applications": "Kleine tot middelgrote operaties",
+        "operation": "Batch of continu"
+      },
+      "evaplate1000": {
+        "capacity": "1.000 L/u",
+        "design": "Industriële schaal",
+        "construction": "Volledig technisch kunststof",
+        "applications": "Grote industriële operaties",
+        "operation": "Continu"
+      }
+    },
+    "applications_title": "Industrieën die Wij Bedienen",
+    "applications": {
+      "chemical_title": "Chemische Industrie",
+      "chemical_desc": "Verwerk zuur- en loogafvalstromen veilig",
+      "food_title": "Voedingsmiddelen & Dranken",
+      "food_desc": "Win proceswater terug en reduceer afvalvolume",
+      "municipal_title": "Gemeentelijk",
+      "municipal_desc": "Behandel afvalwater en percolaat efficiënt",
+      "manufacturing_title": "Productie",
+      "manufacturing_desc": "Recycel koelwater en procesvloeistoffen"
+    },
+    "cta_title": "Een Oplossing op Maat Nodig?",
+    "cta_subtitle": "Neem contact op om uw specifieke afvalstroomvereisten te bespreken.",
+    "cta_button": "Neem Contact Op"
+  },
   "technology": {
     "hero_title": "Onze Technologie",
     "hero_subtitle": "Vacuümverdamping opnieuw uitgevonden met technisch kunststof",

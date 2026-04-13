@@ -62,6 +62,46 @@
     "request_quote": "Request Quote",
     "view_details": "View Details"
   },
+  "products_page": {
+    "hero_title": "Our Products",
+    "hero_subtitle": "Vacuum evaporators built for performance and durability",
+    "comparison_title": "Compare Models",
+    "specs": {
+      "capacity": "Capacity",
+      "design": "Design",
+      "construction": "Construction",
+      "applications": "Applications",
+      "operation": "Operation",
+      "evaplate100": {
+        "capacity": "100 L/h",
+        "design": "Compact",
+        "construction": "Full engineering plastic",
+        "applications": "Small to medium operations",
+        "operation": "Batch or continuous"
+      },
+      "evaplate1000": {
+        "capacity": "1,000 L/h",
+        "design": "Industrial scale",
+        "construction": "Full engineering plastic",
+        "applications": "Large industrial operations",
+        "operation": "Continuous"
+      }
+    },
+    "applications_title": "Industries We Serve",
+    "applications": {
+      "chemical_title": "Chemical Industry",
+      "chemical_desc": "Process acid and alkali waste streams safely",
+      "food_title": "Food & Beverage",
+      "food_desc": "Recover process water and reduce waste volume",
+      "municipal_title": "Municipal",
+      "municipal_desc": "Treat wastewater and leachate efficiently",
+      "manufacturing_title": "Manufacturing",
+      "manufacturing_desc": "Recycle cooling water and process fluids"
+    },
+    "cta_title": "Need a Custom Solution?",
+    "cta_subtitle": "Contact us to discuss your specific waste stream requirements.",
+    "cta_button": "Get in Touch"
+  },
   "technology": {
     "hero_title": "Our Technology",
     "hero_subtitle": "Vacuum evaporation reimagined with engineering plastic",
