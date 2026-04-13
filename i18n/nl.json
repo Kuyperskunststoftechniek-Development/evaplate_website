@@ -1,0 +1,15 @@
+{
+  "nav": {
+    "home": "Home",
+    "technology": "Technologie",
+    "products": "Producten",
+    "about": "Over ons",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Duurzame Vacuümverdamping",
+    "subtitle": "Kunststof verdampers die verwerken wat metaal niet kan",
+    "cta_primary": "Offerte Aanvragen",
+    "cta_secondary": "Meer Informatie"
+  }
+}

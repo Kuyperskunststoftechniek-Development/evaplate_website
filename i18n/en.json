@@ -1,0 +1,15 @@
+{
+  "nav": {
+    "home": "Home",
+    "technology": "Technology",
+    "products": "Products",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Sustainable Vacuum Evaporation",
+    "subtitle": "Plastic-built evaporators that handle what metal can't",
+    "cta_primary": "Request a Quote",
+    "cta_secondary": "Learn More"
+  }
+}
