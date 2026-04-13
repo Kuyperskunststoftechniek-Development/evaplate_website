@@ -102,6 +102,26 @@
     "cta_subtitle": "Contact us to discuss your specific waste stream requirements.",
     "cta_button": "Get in Touch"
   },
+  "about": {
+    "hero_title": "About EVAplate",
+    "hero_subtitle": "Pioneering sustainable solutions for industrial waste treatment",
+    "story_title": "Our Story",
+    "story_text": "EVAplate was founded with a simple but powerful idea: what if vacuum evaporators didn't have to corrode? By rethinking the material — replacing metal with engineering plastic — we've created evaporators that last longer, cost less to maintain, and can process waste streams that were previously impossible to handle.",
+    "mission_title": "Our Mission",
+    "mission_text": "To make industrial waste treatment more sustainable, more reliable, and more accessible through innovative plastic-based vacuum evaporation technology.",
+    "values_title": "Our Values",
+    "values": {
+      "innovation_title": "Innovation",
+      "innovation_desc": "We challenge conventional thinking to find better solutions for industrial waste treatment.",
+      "sustainability_title": "Sustainability",
+      "sustainability_desc": "Every product we build is designed to reduce environmental impact and promote resource recovery.",
+      "reliability_title": "Reliability",
+      "reliability_desc": "Our customers depend on equipment that works. We build for durability and consistent performance."
+    },
+    "cta_title": "Want to Learn More?",
+    "cta_subtitle": "Get in touch to discuss how EVAplate can help your operation.",
+    "cta_button": "Contact Us"
+  },
   "technology": {
     "hero_title": "Our Technology",
     "hero_subtitle": "Vacuum evaporation reimagined with engineering plastic",

@@ -102,6 +102,26 @@
     "cta_subtitle": "Neem contact op om uw specifieke afvalstroomvereisten te bespreken.",
     "cta_button": "Neem Contact Op"
   },
+  "about": {
+    "hero_title": "Over EVAplate",
+    "hero_subtitle": "Pionieren in duurzame oplossingen voor industriële afvalverwerking",
+    "story_title": "Ons Verhaal",
+    "story_text": "EVAplate is opgericht met een eenvoudig maar krachtig idee: wat als vacuümverdampers niet hoefden te corroderen? Door het materiaal te heroverwegen — metaal te vervangen door technisch kunststof — hebben we verdampers gecreëerd die langer meegaan, minder onderhoud kosten en afvalstromen kunnen verwerken die voorheen onmogelijk waren.",
+    "mission_title": "Onze Missie",
+    "mission_text": "Industriële afvalverwerking duurzamer, betrouwbaarder en toegankelijker maken door innovatieve vacuümverdampingstechnologie op basis van kunststof.",
+    "values_title": "Onze Waarden",
+    "values": {
+      "innovation_title": "Innovatie",
+      "innovation_desc": "We dagen conventioneel denken uit om betere oplossingen te vinden voor industriële afvalverwerking.",
+      "sustainability_title": "Duurzaamheid",
+      "sustainability_desc": "Elk product dat we bouwen is ontworpen om de milieu-impact te verminderen en grondstofterugwinning te bevorderen.",
+      "reliability_title": "Betrouwbaarheid",
+      "reliability_desc": "Onze klanten vertrouwen op apparatuur die werkt. Wij bouwen voor duurzaamheid en consistente prestaties."
+    },
+    "cta_title": "Meer Weten?",
+    "cta_subtitle": "Neem contact op om te bespreken hoe EVAplate uw operatie kan helpen.",
+    "cta_button": "Neem Contact Op"
+  },
   "technology": {
     "hero_title": "Onze Technologie",
     "hero_subtitle": "Vacuümverdamping opnieuw uitgevonden met technisch kunststof",
