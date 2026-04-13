@@ -5,6 +5,7 @@ defineProps<{
   features: string[]
   ctaLabel: string
   ctaTo: string
+  image?: string
 }>()
 
 const localePath = useLocalePath()
@@ -12,9 +13,16 @@ const localePath = useLocalePath()
 
 <template>
   <div class="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden">
-    <!-- Image placeholder -->
-    <div class="h-48 bg-gradient-to-br from-surface to-teal-100 flex items-center justify-center">
-      <span class="text-4xl font-bold text-primary/30">{{ name }}</span>
+    <!-- Product image or placeholder -->
+    <div class="h-48 bg-gradient-to-br from-surface to-teal-100 flex items-center justify-center overflow-hidden">
+      <NuxtImg
+        v-if="image"
+        :src="image"
+        :alt="name"
+        class="w-full h-full object-cover"
+        loading="lazy"
+      />
+      <span v-else class="text-4xl font-bold text-primary/30">{{ name }}</span>
     </div>
     <div class="p-6">
       <h3 class="text-xl font-bold text-slate-900 mb-1">{{ name }}</h3>

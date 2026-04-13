@@ -40,6 +40,18 @@ const benefits = [
         <h2 class="text-3xl font-bold text-slate-900 text-center mb-4">{{ t('technology.how_it_works_title') }}</h2>
         <p class="text-slate-600 text-center max-w-3xl mx-auto mb-12">{{ t('technology.how_it_works_text') }}</p>
 
+        <!-- Process overview diagram — add src="/images/process/process-overview.jpg" when ready -->
+        <!--
+        <div class="mb-12">
+          <NuxtImg
+            src="/images/process/process-overview.jpg"
+            alt="Vacuum evaporation process overview"
+            class="w-full max-w-4xl mx-auto rounded-xl shadow-sm"
+            loading="lazy"
+          />
+        </div>
+        -->
+
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           <div
             v-for="step in processSteps"

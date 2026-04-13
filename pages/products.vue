@@ -33,6 +33,7 @@ const specKeys = ['capacity', 'design', 'construction', 'applications', 'operati
     <section class="py-16">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+          <!-- Add image="/images/products/evaplate100.jpg" when renders are ready -->
           <ProductCard
             :name="t('products.evaplate100.name')"
             :capacity="t('products.evaplate100.capacity')"
@@ -40,6 +41,7 @@ const specKeys = ['capacity', 'design', 'construction', 'applications', 'operati
             :cta-label="t('products.request_quote')"
             cta-to="/contact"
           />
+          <!-- Add image="/images/products/evaplate1000.jpg" when renders are ready -->
           <ProductCard
             :name="t('products.evaplate1000.name')"
             :capacity="t('products.evaplate1000.capacity')"

@@ -13,7 +13,7 @@ const features1000 = computed(() =>
 
 <template>
   <div>
-    <!-- Hero -->
+    <!-- Hero — add background-video="/images/hero/hero-bg.mp4" when ready -->
     <HeroSection
       :title="t('hero.title')"
       :subtitle="t('hero.subtitle')"
@@ -52,6 +52,7 @@ const features1000 = computed(() =>
           <p class="text-slate-600 mt-2">{{ t('home.products_section_subtitle') }}</p>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+          <!-- Add image="/images/products/evaplate100.jpg" when renders are ready -->
           <ProductCard
             :name="t('products.evaplate100.name')"
             :capacity="t('products.evaplate100.capacity')"
@@ -59,6 +60,7 @@ const features1000 = computed(() =>
             :cta-label="t('products.view_details')"
             cta-to="/products"
           />
+          <!-- Add image="/images/products/evaplate1000.jpg" when renders are ready -->
           <ProductCard
             :name="t('products.evaplate1000.name')"
             :capacity="t('products.evaplate1000.capacity')"
