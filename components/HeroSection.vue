@@ -1,76 +1,39 @@
-<script setup lang="ts">
-const props = defineProps<{
-  title: string
-  subtitle: string
-  primaryCta?: { label: string; to: string }
-  secondaryCta?: { label: string; to: string }
-  compact?: boolean
-  backgroundVideo?: string
-  backgroundImage?: string
-}>()
-
-const localePath = useLocalePath()
-const hasMedia = computed(() => !!props.backgroundVideo || !!props.backgroundImage)
-</script>
-
 <template>
-  <section
-    :class="[
-      'relative overflow-hidden text-white',
-      compact ? 'py-16' : 'py-24 lg:py-32',
-      !hasMedia && 'bg-gradient-to-br from-primary to-primary-dark',
-    ]"
-  >
-    <!-- Background video (hidden on mobile, shows image fallback instead) -->
-    <video
-      v-if="backgroundVideo"
-      autoplay
-      muted
-      loop
-      playsinline
-      :poster="backgroundImage"
-      class="absolute inset-0 w-full h-full object-cover hidden md:block"
-    >
-      <source :src="backgroundVideo" type="video/mp4" />
-    </video>
+  <section class="hero">
+    <div class="wrap">
+      <div class="hero-head">
+        <div>
+          <span class="label">Plate-based vacuum evaporation</span>
+          <h1>Multi-effect evaporation with the lowest Total Cost of Ownership.</h1>
+        </div>
+        <p class="lead">EvaPlate is developing a compact evaporator for wastewater and process streams. It is built from a stack of polypropylene plates instead of special metal alloys, runs fully electric on a water-to-water heat pump and fits inside a shipping container. Affordable evaporation, for the low/mid volume range.</p>
+      </div>
 
-    <!-- Background image (shown always when set, or as mobile fallback for video) -->
-    <div
-      v-if="backgroundImage"
-      class="absolute inset-0 bg-cover bg-center"
-      :class="backgroundVideo ? 'md:hidden' : ''"
-      :style="{ backgroundImage: `url(${backgroundImage})` }"
-    />
+      <figure class="hero-figure">
+        <img src="/images/hero-eva500.jpg" alt="Concept of an EvaPlate evaporator inside an open 20 ft container: a stack of beige plastic plates clamped between dark steel end frames, with plate heat exchangers, a vapour separator, diaphragm pumps and a control cabinet." width="1600" height="900">
+        <div class="plates" aria-hidden="true">
+          <span style="background:var(--hot)" />
+          <span style="background:var(--warm)" />
+          <span style="background:var(--mid)" />
+          <span style="background:var(--cool)" />
+          <span style="background:var(--cold)" />
+        </div>
+        <figcaption>Concept visualisation of the EVA-500 in a 20 ft container.</figcaption>
+      </figure>
 
-    <!-- Dark overlay for text readability -->
-    <div
-      v-if="hasMedia"
-      class="absolute inset-0 bg-gradient-to-br from-primary/80 to-primary-dark/80"
-    />
+      <div class="facts">
+        <div class="fact"><b>1–6 effects</b><span>Configurable per application, more on request</span></div>
+        <div class="fact"><b>PP plates</b><span>Polypropylene plate stack, no steel in the evaporator core</span></div>
+        <div class="fact"><b>Heat pump</b><span>Water-to-water heat pump supplies heat and cooling</span></div>
+        <div class="fact"><b>Container</b><span>Delivered as a complete, movable unit</span></div>
+      </div>
 
-    <!-- Content -->
-    <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-      <h1 :class="[compact ? 'text-3xl lg:text-4xl' : 'text-4xl lg:text-5xl', 'font-bold mb-4']">
-        {{ title }}
-      </h1>
-      <p :class="[compact ? 'text-lg' : 'text-lg lg:text-xl', 'text-teal-100 max-w-2xl mx-auto mb-8']">
-        {{ subtitle }}
-      </p>
-      <div v-if="primaryCta || secondaryCta" class="flex flex-col sm:flex-row gap-4 justify-center">
-        <NuxtLink
-          v-if="primaryCta"
-          :to="localePath(primaryCta.to)"
-          class="inline-block bg-white text-primary-dark font-semibold px-8 py-3 rounded-lg hover:bg-teal-50 transition-colors"
-        >
-          {{ primaryCta.label }}
-        </NuxtLink>
-        <NuxtLink
-          v-if="secondaryCta"
-          :to="localePath(secondaryCta.to)"
-          class="inline-block border-2 border-white text-white font-semibold px-8 py-3 rounded-lg hover:bg-white/10 transition-colors"
-        >
-          {{ secondaryCta.label }}
-        </NuxtLink>
+      <div class="note">
+        <span class="label">Status · Oct 2026</span>
+        <div>
+          <p><strong>EvaPlate is in development and not yet commercially available.</strong> Over the past year we tested a first generation of plates in a pilot. We are now finishing the second plate design (V2), which goes into a 100 L/h pilot at the end of 2026. We aim for commercial availability of the first evaporators at the end of 2027.</p>
+          <p>This page explains what we are building and where the project stands. It will be updated as test results come in.</p>
+        </div>
       </div>
     </div>
   </section>
